@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<!-- Da acceso a HttpContext, middlewares, BadHttpRequestException, etc.
+       Se hereda a los proyectos que referencian Common. -->
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.12.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="10.0.12" />
+		<PackageReference Include="System.Linq.Dynamic.Core" Version="1.7.4" />
+	</ItemGroup>
+
+</Project>

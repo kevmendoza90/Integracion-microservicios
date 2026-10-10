@@ -1,0 +1,22 @@
+<Solution>
+  <Folder Name="/Addresses/">
+    <Project Path="Addresses/Addresses.Api/Addresses.Api.csproj" />
+    <Project Path="Addresses/Addresses.Core/Addresses.Core.csproj" />
+    <Project Path="Addresses/Addresses.Domain/Addresses.Domain.csproj" />
+    <Project Path="Addresses/Addresses.Infraestructure/Addresses.Infraestructure.csproj" />
+    <Project Path="Addresses/Addresses.Persistence/Addresses.Persistence.csproj" />
+  </Folder>
+  <Folder Name="/Customers/">
+    <Project Path="Customers/Business.Api/Business.Api.csproj" />
+    <Project Path="Customers/Business.Core/Business.Core.csproj" />
+    <Project Path="Customers/Business.Domain/Business.Domain.csproj" />
+    <Project Path="Customers/Business.Infraestructure/Business.Infraestructure.csproj" />
+    <Project Path="Customers/Business.Persistence/Business.Persistence.csproj" />
+  </Folder>
+  <Folder Name="/Elementos de la solución/">
+    <File Path="nuget.config" />
+  </Folder>
+  <Folder Name="/Utils/">
+    <Project Path="Utils/Common/Common.csproj" Id="072b21ce-4efb-4859-823c-39e24b30f86c" />
+  </Folder>
+</Solution>

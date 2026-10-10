@@ -1,0 +1,11 @@
+<Project>
+  <!-- Se aplica a TODOS los proyectos de la solución.
+       Silencia el aviso NU1903 de AutoMapper 12.0.1: la Consola del Administrador
+       de paquetes lo trata como error y detiene Add-Migration / Update-Database. -->
+  <ItemGroup>
+    <NuGetAuditSuppress Include="https://github.com/advisories/GHSA-rvv3-g6hj-g44x" />
+  </ItemGroup>
+  <PropertyGroup>
+    <NoWarn>$(NoWarn);NU1903</NoWarn>
+  </PropertyGroup>
+</Project>
